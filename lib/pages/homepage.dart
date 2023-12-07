@@ -62,6 +62,7 @@ class _HomePageState extends State<HomePage> {
                 color: kblueColor,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(100)),
               ),
+
               child: ListView(
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),

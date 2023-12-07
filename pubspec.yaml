@@ -34,6 +34,7 @@ dependencies:
   shared_preferences:
   image_picker_ios:
   image_picker:
+  http: ^0.13.3
 
 
 

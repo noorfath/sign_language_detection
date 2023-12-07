@@ -131,7 +131,8 @@ class _SettingsPageState extends State<SettingsPage> {
                     SnackBar(content: Text('Settings saved successfully')),
                   );
                 },
-                child: Text('Save Settings'),
+                child: Text('Save Settings',style: TextStyle(color: Colors.white),),
+
               ),
             ),
             SizedBox(height: 30,),
@@ -159,7 +160,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   BorderSide( ),
                       shape:
                       RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
-                  onPressed: () {}, child:  Text('Privacy Policy'),
+                  onPressed: () {}, child:  Text('Privacy Policy',style: TextStyle(color: Colors.white),),
                 )
 
             ),
@@ -217,7 +218,7 @@ class TermsAndConditionsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(backgroundColor: Colors.deepPurpleAccent,
+        appBar: AppBar(backgroundColor: kyellowcolor,
           title: const Text('Terms and Conditions'),
         ),
         body: const Center(
